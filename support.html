@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Amazeriffic!</title>
+    <link href="reset.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet'>
+    <style>
+       
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+        
+        input[type=submit] {
+          background-color: #04AA6D;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+        
+        .cont{
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+        </style>
+  </head>
+  
+
+  <body>
+    <header>
+      <div class="container">
+        <h1>Amazeriffic!</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+          <a href="signup.html">Sign Up!</a> |
+          <a href="faq.html">FAQ</a> |
+          
+        </nav>
+      </div>
+    </header>
+    <h3>Support Form</h3>
+
+    <div class="cont">
+      <form >
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">USA</option>
+          <option value="canada">Canada</option>
+          <option value="usa">India</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="max 300 words.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+
+    <footer>
+
+        <div class="container">
+          <div class="contact">
+            <h5>Contact Us</h5>
+            <p>Amazeriffic!</p>
+            <p>555 Fiftieth Street</p>
+            <p>Asheville, NC 28801</p>
+          </div>
+          <div class="sitemap">
+            <h5>Sitemap</h5>
+            <ul>
+              <div class="left">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hw3.html">About Us</a></li>
+                <li><a href="#">Privacy</a></li>
+              </div>
+              <div class="right">
+                <li><a href="support.html">Support</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="carrer.html">Careers</a></li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </footer>
+  
+      
+    </body>
+  </html>
